@@ -40,6 +40,13 @@ This dataset is ideal for developing **optimization and AI models for grid topol
   - Actual generation by generating unit : https://data.rte-france.com/catalog/-/api/generation/Actual-Generation/v1.1 
   - ENTSO-E Transparency platform - Cross-border physical flows : https://transparency.entsoe.eu/transmission-domain/physicalFlow/show
   
-## Author
+## Authors
 
-- Selim Ben Turkia : publication of the dataset and documentation
+- Selim Ben Turkia: developper for crunching and cleaning datas from the source database
+- Camille Pache: manager of this publication project 
+- Boris Dolley: publication of the public dataset
+
+## Roadmap
+
+20241220: Publication of the first 2 months (2021, January and Febuary)
+20250330: Publication of the total dataset (2021, 2022 and 2023 = 36 months)
