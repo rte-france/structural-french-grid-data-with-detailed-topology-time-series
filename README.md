@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This dataset offers a series of snapshots of the French transmission electricity network in *node-breaker* topology, with a temporal granularity of **5 minutes**, covering the period from **2021 to 2023**. Only the structure and topology of the grid is described, there is no information on injections and power flows. The snapshots are provided in compressed **xiidm** format. 
+This dataset offers a series of snapshots of the French transmission electricity network in *node-breaker* topology, with a temporal granularity of **5 minutes**, covering the period from **2021 to 2023**. Only the structure and topology of the grid is described, there is no information on injections and power flows. The snapshots are provided in compressed **[xiidm](https://powsybl.readthedocs.io/projects/powsybl-core/en/stable/grid_exchange_formats/iidm/index.html)** format. 
 
 ## Dataset Content
 
@@ -19,14 +19,14 @@ The identifiers of the network elements are **consistent over time**, ensuring t
 
 ## Data Format
 
-- **Format**: The data are provided in **xiidm** format.
-- **Compatibility**: The snapshots are readable with **pypowsybl** (or **PowSyBl**), allowing for easy manipulation and analysis of the electrical network.
-- **Temporal Granularity**: Snapshots every **5 minutes**, enabling fine-grained analysis of grid topology evolutions.
+- **Format**: The data are provided in **[xiidm](https://powsybl.readthedocs.io/projects/powsybl-core/en/stable/grid_exchange_formats/iidm/index.html)** format (bzip2 compressed).
+- **Compatibility**: The snapshots are readable with **[pypowsybl](https://github.com/powsybl/pypowsybl)** (or **[PowSyBl](https://powsybl.org)**, allowing for easy manipulation and analysis of the electrical network.
+- **Temporal Granularity**: Snapshots every **5 minutes**, enabling fine-grained analysis of grid topology evolutions (one file each 5 minutes).
 - **Spatial perimeter**: All structural grid components of the French transmission network are represented from 63 kV to 400 kV voltage levels. Interconnection lines with neighboring countries are modeled as dangling lines.
 
 ## Limitations
 
-- **Power flows and injections Not Included**: The data do not contain power flows or injections. Only the structural and topological information of the network is available. In order to compute power flows, injection reconstruction is necessary using open-source agregated data. A reconstruction methodology has been proposed by M. Chatzos, M. Tanneau and P. Van Hentenryck in "Data-driven time series reconstruction for modern power systems research" (Electric Power Systems Research, 2022). Then, power flows can be computed using traditional simulation tools.
+- **Power flows and injections Not Included**: The data do not contain power flows or injections. Only the structural and topological information of the network is available. In order to compute power flows, injection reconstruction is necessary using open-source agregated data. A reconstruction methodology has been proposed by [M. Chatzos](https://www.linkedin.com/in/minas-chatzos-b90164164), [M. Tanneau](https://www.linkedin.com/in/mathieu-tanneau-47937ba9) and [P. Van Hentenryck](https://www.linkedin.com/in/pascal-van-hentenryck-50a5741) in "[Data-driven time series reconstruction for modern power systems research](https://arxiv.org/abs/2110.13772)" (Electric Power Systems Research, 2022). Then, power flows can be computed using traditional simulation tools.
 
 ## Potential Uses
 
@@ -39,15 +39,19 @@ This dataset is ideal for developing **optimization and AI models for grid topol
   - Eco2mix - Real-time electricity data in France : https://www.rte-france.com/en/eco2mix
   - Actual generation by generating unit : https://data.rte-france.com/catalog/-/api/generation/Actual-Generation/v1.1 
   - ENTSO-E Transparency platform - Cross-border physical flows : https://transparency.entsoe.eu/transmission-domain/physicalFlow/show
-  
-## Authors
-
-- Selim Ben Turkia: developper for crunching and cleaning datas from the source database
-- Camille Pache: manager of this publication project 
-- Boris Dolley: publication of the public dataset
-
+ 
 ## Roadmap
 
 - 20241220: Publication of the first 2 months (2021, January and Febuary)
 - 20250330: Publication of the total dataset (2021, 2022 and 2023 = 36 months)
-- ...
+
+## Authors
+
+- [Selim Ben Turkia](https://fr.linkedin.com/in/selim-ben-turkia-b78614223): developper for crunching and cleaning datas from the source database
+- [Camille Pache](https://fr.linkedin.com/in/camille-pache-289bba60)): manager of the publication project
+- [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte): github publisher for public dataset
+- [Lucas Saludjian](https://fr.linkedin.com/in/lucas-saludjian-8438181b0): scientific advisor
+- [Patick Panciatici](https://fr.linkedin.com/in/patrick-panciatici-a8a09858): senior scientific advisor
+
+
+
