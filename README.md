@@ -20,7 +20,7 @@ The identifiers of the network elements are **consistent over time**, ensuring t
 ## Data Format
 
 - **Format**: The data are provided in **[xiidm](https://powsybl.readthedocs.io/projects/powsybl-core/en/stable/grid_exchange_formats/iidm/index.html)** format (bzip2 compressed).
-- **Compatibility**: The snapshots are readable with **[pypowsybl](https://github.com/powsybl/pypowsybl)** (or **[PowSyBl](https://powsybl.org)**, allowing for easy manipulation and analysis of the electrical network.
+- **Compatibility**: The snapshots are readable with **[pypowsybl](https://github.com/powsybl/pypowsybl)** (or **[PowSyBl](https://powsybl.org)**, allowing for easy manipulation and analysis of the electrical network. Python notebooks are available on **[GitHub](https://github.com/powsybl/pypowsybl-notebooks)** to help you manipulate the data.
 - **Temporal Granularity**: Snapshots every **5 minutes**, enabling fine-grained analysis of grid topology evolutions (one file each 5 minutes).
 - **Spatial perimeter**: All structural grid components of the French transmission network are represented from 63 kV to 400 kV voltage levels. Interconnection lines with neighboring countries are modeled as dangling lines.
 
