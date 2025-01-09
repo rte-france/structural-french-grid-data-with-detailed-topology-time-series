@@ -9,11 +9,11 @@ This dataset offers a series of snapshots of the French transmission electricity
 Each network file includes the following details:
 
 - **Substations**: Detailed information on electrical substations, with the topology in *node-breaker* format.
-- **Switches**: Description of disconnectors and other switching devices.
-- **Lines and tranformers** : Information on the characteristics of transmission lines and transformers, including thermal limits.
-- **Loads**: Data related to loads (consumption) connected to the network.
-- **Generators**: Information on electrical generators.
-- **Other Elements**: Includes other essential components of the electrical network.
+- **Switches**: Description of disconnectors and other switching devices (position and connection status).
+- **Lines and tranformers** : Information on the static characteristics of transmission lines and transformers, including thermal limits. Power flows are not displayed.
+- **Loads**: Location of loads (consumption) on the netwro and their connection status. Injections are not displayed.
+- **Generators**: Information on electrical generators regarding their location, energy type, connection status and static data such as min/max active power limits. Injections are not displayed.
+- **Other Elements**: Includes other essential components of the electrical network (phase-shifter transformers, HVDC lines, HVDC converter station, shunts, capacitors, batteries...).
 
 The identifiers of the network elements are **consistent over time**, ensuring traceability and coherence throughout the covered period. However, in the event of maintenance or structural modifications to the network, changes to the identifiers may occur.
 
