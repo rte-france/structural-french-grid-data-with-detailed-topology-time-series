@@ -1,5 +1,11 @@
 # Dataset Description
 
+## /!\ 202502 Download issue - explaination /!\
+
+Since the release of this dataset, we have been experiencing a high volume of git clones. Therefore, we will stop using LFS (a naturally paid solution on GitHub as it consumes bandwidth and storage on their end). Like Mistral.ai, DeepSeek, and many others, we will host this dataset on https://academictorrents.com/ in a few weeks. Stay tuned.
+
+In the meantime, if you would like access to a few individual files, you can contact [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte) via private message on LinkedIn.
+
 ## Introduction
 
 This dataset offers a series of snapshots of the French transmission electricity network in *node-breaker* topology, with a temporal granularity of **5 minutes**, covering the period from **2021 to 2023**. Only the structure and topology of the grid is described, there is no information on injections and power flows. The snapshots are provided in compressed **[xiidm](https://powsybl.readthedocs.io/projects/powsybl-core/en/stable/grid_exchange_formats/iidm/index.html)** format. 
