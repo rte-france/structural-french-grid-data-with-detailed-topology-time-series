@@ -1,8 +1,11 @@
 # Dataset Description
 
-## /!\ 202502 Download issue - explaination /!\
 
-Since the release of this dataset, we have been experiencing a high volume of git clones. Therefore, we will stop using LFS (a naturally paid solution on GitHub as it consumes bandwidth and storage on their end). Like Mistral.ai, DeepSeek, and many others, we will host this dataset on https://academictorrents.com/ in a few weeks. Stay tuned.
+## Download files via Git
+To download files via git clone, you should first install git-lfs.
+
+## /!\ 202502 Download issue - explaination /!\
+Since the release of this dataset, we have been experiencing a high volume of git clones. Therefore, we will stop using LFS (a naturally paid solution on GitHub as it consumes bandwidth and storage on their end).
 
 In the meantime, if you would like access to a few individual files, you can contact [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte) via private message on LinkedIn.
 
