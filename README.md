@@ -58,11 +58,12 @@ This dataset is ideal for developing **optimization and AI models for grid topol
 
 ## Authors
 
-- [Selim Ben Turkia](https://fr.linkedin.com/in/selim-ben-turkia-b78614223): Developper for crunching and cleaning the data from the source database
-- [Camille Pache](https://fr.linkedin.com/in/camille-pache-289bba60): Manager of the publication project
-- [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte): Github publisher for public dataset
-- [Lucas Saludjian](https://fr.linkedin.com/in/lucas-saludjian-8438181b0): Scientific advisor
-- [Patick Panciatici](https://fr.linkedin.com/in/patrick-panciatici-a8a09858): Senior scientific advisor
+- [Selim Ben Turkia](https://fr.linkedin.com/in/selim-ben-turkia-b78614223/): Developper for crunching and cleaning the data from the source database
+- [Olivier Pigeon-Schneider](https://www.linkedin.com/in/olivier-pigeon-903453a3/): Developper for crunching and cleaning the data from the source database
+- [Camille Pache](https://fr.linkedin.com/in/camille-pache-289bba60/): Manager of the publication project
+- [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte/): Github publisher for public dataset
+- [Lucas Saludjian](https://fr.linkedin.com/in/lucas-saludjian-8438181b0/): Scientific advisor
+- [Patick Panciatici](https://fr.linkedin.com/in/patrick-panciatici-a8a09858/): Senior scientific advisor
 
 
 
