@@ -4,10 +4,9 @@
 ## Download files via Git
 To download files via git clone, you should first install git-lfs.
 
-## /!\ 202502 Download issue - explaination /!\
-Since the release of this dataset, we have been experiencing a high volume of git clones. Therefore, we will stop using LFS (a naturally paid solution on GitHub as it consumes bandwidth and storage on their end).
-
-In the meantime, if you would like access to a few individual files, you can contact [Boris Dolley](https://fr.linkedin.com/in/boris-dolley-rte) via private message on LinkedIn.
+## /!\ 20250401 Update /!\
+We will release 6 months this week and will switch to HuggingFace in order not to be limited with LFS quota on GitHub...
+[Boris](https://fr.linkedin.com/in/boris-dolley-rte)
 
 ## Introduction
 
@@ -53,6 +52,8 @@ This dataset is ideal for developing **optimization and AI models for grid topol
 
 - 20241220: Publication of the first 2 months (2021, January and Febuary)
 - 20250330: Publication of the total dataset (2021, 2022 and 2023 = 36 months)
+- 20250401: Since we're still having non persistent IDs in our dataset, we will publish only 6 months (year 2021)
+- 20250420: News about the roadmap to come...
 
 ## Authors
 
