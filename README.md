@@ -51,7 +51,7 @@ This dataset is ideal for developing **optimization and AI models for grid topol
 ## Roadmap
 
 - 20241220: Publication of the first 2 months (2021, January and Febuary)
-- 20250330: Publication of the total dataset (2021, 2022 and 2023 = 36 months)
+- ~~20250330: Publication of the total dataset (2021, 2022 and 2023 = 36 months)~~
 - 20250401: Since we're still having non persistent IDs in our dataset, we will publish only 6 months (year 2021)
 - 20250420: News about the roadmap to come...
 
