@@ -44,9 +44,10 @@ This dataset is ideal for developing **optimization and AI models for grid topol
 
 - **ID Changes**: Users should be aware of potential ID changes due to maintenance or structural modifications.
 - **List of open-source injection data**:
-  - Eco2mix - Real-time electricity data in France : https://www.rte-france.com/en/eco2mix
-  - Actual generation by generating unit : https://data.rte-france.com/catalog/-/api/generation/Actual-Generation/v1.1 
-  - ENTSO-E Transparency platform - Cross-border physical flows : https://transparency.entsoe.eu/transmission-domain/physicalFlow/show
+  - [Eco2mix - Real-time electricity data in France](https://www.rte-france.com/en/eco2mix/)
+  - [Actual generation by generating unit](https://data.rte-france.com/catalog/-/api/generation/Actual-Generation/v1.1/) 
+  - [ENTSO-E Transparency platform - Cross-border physical flows](https://transparency.entsoe.eu/transmission-domain/physicalFlow/show/)
+  - [ODRE - Open Data Réseaux Énergie (only in French)](https://opendata.reseaux-energies.fr/)
  
 ## Roadmap
 
